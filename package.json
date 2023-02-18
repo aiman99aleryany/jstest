@@ -1,0 +1,29 @@
+{
+    "name": "testjs",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "npx eslint ./src/**/*.js",
+        "sass": "npx sass ./src/styles/index.scss ./src/styles/css/index.css --watch",
+        "prettier": "npx prettier . --write"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aiman99aleryany/jstest.git"
+    },
+    "bugs": {
+        "url": "https://github.com/aiman99aleryany/jstest/issues"
+    },
+    "homepage": "https://github.com/aiman99aleryany/jstest#readme",
+    "devDependencies": {
+        "eslint": "^8.34.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-webpack-plugin": "^4.0.0",
+        "prettier": "^2.8.4",
+        "sass": "^1.58.2",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1"
+    },
+    "dependencies": {
+        "nanoid": "^4.0.1"
+    }
+}
